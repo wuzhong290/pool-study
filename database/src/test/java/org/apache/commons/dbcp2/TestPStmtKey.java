@@ -16,19 +16,14 @@
  */
 package org.apache.commons.dbcp2;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import org.apache.commons.dbcp2.PoolingConnection.StatementType;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.sql.Statement;
 import java.util.Arrays;
 
-import javax.resource.cci.ResultSet;
-
-import org.apache.commons.dbcp2.PoolingConnection.StatementType;
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  * Tests {@link PStmtKey}.
